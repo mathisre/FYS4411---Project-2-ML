@@ -27,6 +27,7 @@ int main(){
 //    string method = "MetropolisImportance";
 //    string method = "Gibbs";
 
+    // Interaction: put "false" to consider non-interacting fermions
     bool interaction = true;
 
     double learning_rate    = 0.2;
@@ -62,8 +63,6 @@ int main(){
     // Data files for SGD cycle and final MC run
     string filename_cycle_data;
     string finalFilename;
-
-    // Interaction: put "false" to consider non-interacting fermions
     if (interaction == true)
     {
         // SGD data file

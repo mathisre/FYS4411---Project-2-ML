@@ -8,5 +8,5 @@ Moreover, inside src (folder "blocking") there is a python code to perform the b
 
 In folder "figures", there are all the plots made for the report.
 
-In folder "data", there are some results which we find important i.e. the ground state energy computed with the optimal parameters after (300 SGD cycles) in the interacting case with importance sampling and brute force metropolis.
+In folder "data", there are some results which we find important i.e. the ground state energy computed with the optimal parameters after (300 SGD cycles) in the interacting case with importance sampling and brute force metropolis. We also insert as examples some data about the non-interacting case.
 

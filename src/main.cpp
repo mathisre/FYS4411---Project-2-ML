@@ -62,6 +62,8 @@ int main(){
     // Data files for SGD cycle and final MC run
     string filename_cycle_data;
     string finalFilename;
+
+    // Interaction: put "false" to consider non-interacting fermions
     if (interaction == true)
     {
         // SGD data file
